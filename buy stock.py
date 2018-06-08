@@ -45,7 +45,7 @@ class Solution(object):
 
 
 
-
-a = Solution()
-#print(a.maxProfit( [ 2,6,1,4,8 ] ))
-print(a.maxSubArray( [-2,1,-3,4,-1,2,2,-5,4] ))
+if __name__ == '__main__':
+    a = Solution()
+    #print(a.maxProfit( [ 2,6,1,4,8 ] ))
+    print(a.maxSubArray( [-2,1,-3,4,-1,2,2,-5,4] ))
